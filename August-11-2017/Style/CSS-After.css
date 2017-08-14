@@ -1,0 +1,40 @@
+/* ---- EACH ROW ----- */
+ul#some-list li {
+  border-bottom: 1px solid #e3e3e3;
+  border-left: 0;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 6px 0 0 60px;
+  height: 50px;
+  width: 100%;
+}
+
+/* ---- USERNAME & NAME:
+Singe Purpose p tag & aside tag nested in our UL ----- */
+
+ /* These two sections are presented nearly identically */
+ul#some-list p, ul#some-list aside {
+  font-size: 14px;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Only Style Diff is one name is shown as this color */
+ul#some-list p {
+    color: #4a90e2;
+}
+
+/* ---- IMAGE - Singe Purpose p tag nested in our UL ----- */
+ul#some-list img {
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.42);
+  display: block;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 40px;
+}

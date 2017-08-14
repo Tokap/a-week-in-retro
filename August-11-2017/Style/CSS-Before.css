@@ -1,0 +1,62 @@
+/* ------ EACH ROW -------- */
+.row {
+  border-bottom: 1px solid #e3e3e3;
+  border-left: 0;
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* ------ IMAGE -------- */
+.image-holder {
+  float: left;
+  height: 40px;
+  margin: 5px;
+  width: 40px;
+}
+
+.image-holder img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px;
+  height: 100%;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+/* ------ NAME -------- */
+.name {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  max-width: 100%;
+  overflow: hidden;
+  padding-right: 15px;
+  padding-top: 8px;
+  position: relative;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ------ USERNAME -------- */
+p.username-holder {
+  color: #999;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  overflow: hidden;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+p.username-holder span {
+  color: #4a90e2;
+  font-size: 14px;
+  font-weight: 600;
+}
